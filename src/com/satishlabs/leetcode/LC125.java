@@ -33,34 +33,33 @@ s consists only of printable ASCII characters.
  * */
 public class LC125 {
 	public static void main(String[] args) {
-		//Case:1
+		// Case:1
 		String str = "ababa";
-		if(isPalindrome(str)) 
+		if (isPalindrome(str))
 			System.out.println("Palindrome");
 		else
 			System.out.println("Not");
-		
-		
-		//Case:2
+
+		// Case:2
 		String str1 = "A man, a plan, a canal: Panama";
-		if(isPalindrome(str1)) 
+		if (isPalindrome(str1))
 			System.out.println("Palindrome");
 		else
 			System.out.println("Not");
-		
-		//Case:3
+
+		// Case:3
 		String str3 = "race a car";
-		if(isPalindrome(str3)) 
+		if (isPalindrome(str3))
 			System.out.println("Palindrome");
 		else
 			System.out.println("Not");
-		
-		//Case:4
+
+		// Case:4
 		String str4 = " ";
-		if(isPalindrome(str4)) 
+		if (isPalindrome(str4))
 			System.out.println("Palindrome");
 		else
-		   System.out.println("Not");
+			System.out.println("Not");
 
 	}
 
